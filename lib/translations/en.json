@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "work":    "Work",
+    "process": "Approach",
+    "contact": "Contact"
+  },
+  "hero": {
+    "logo":      "STUDIO",
+    "tagline":   "Brussels · BE",
+    "label":     "/// New Engagements — 2026",
+    "headline": {
+      "line1": ["We", "craft", "cinematic"],
+      "line2": ["presence", "for", "businesses"],
+      "line3": ["who", "refuse", "to", "look", "ordinary."],
+      "italicAmber": "cinematic"
+    },
+    "subheadline": "A directing studio combining AI-augmented cinematic film with editorial-grade brand presence. Built for founders who treat their brand as their most important investment.",
+    "ctaPrimary":   "Start a conversation",
+    "ctaSecondary": "See selected work",
+    "since":  "Operating since 2026",
+    "scroll": "Scroll"
+  },
+  "intro": {
+    "label":    "/// 01 — Introduction",
+    "headline": {
+      "line1":    "A team of agency-trained",
+      "line2":    "craftspeople who decided",
+      "line3":    "to work",
+      "emphasis": "differently."
+    },
+    "story": {
+      "paragraph1": "We came up through large agencies — editing campaign films, designing brand systems, building websites, directing motion work for clients we rarely got to meet. The craft was real. The work was repetitive. The recognition was someone else's.",
+      "paragraph2": "So we left. We built a studio of our own — small, focused, selective — to do the work we always wanted to do, for founders who actually care about what they're building."
+    },
+    "punchline": {
+      "line1": "What it means for your business:",
+      "line2": "agency-grade craft, without the agency overhead.",
+      "line3": "And a studio personally invested in the outcome."
+    },
+    "closing": "This is what we deliver. Nothing more, nothing less."
+  },
+  "work": {
+    "label":    "/// 02 — Selected Work",
+    "heading":  "Recent engagements",
+    "intro":    "Current selected work. New engagements publishing as they close.",
+    "moreSoon": "/// Premium Case Studies — Coming Soon",
+    "closing":  "Current engagements with premium brands publish here as they close. Subscribe to the studio email to be notified.",
+    "cta":      "View case study"
+  },
+  "process": {
+    "label":    "/// 03 — PROCESS",
+    "headline": {
+      "line1":       "Five steps from idea",
+      "line2":       "to",
+      "italicAmber": "deliverable."
+    },
+    "subtitle": "Every engagement follows the same considered methodology. Predictable structure, custom outcome.",
+    "steps": [
+      {
+        "label":        "STEP 01 / DISCOVERY",
+        "romanNumeral": "I",
+        "title":        "The conversation",
+        "description":  "A 30-minute call to understand the brand, the goals, and the constraints. We listen first, ask precise questions, and leave with enough clarity to propose a scope. No commitment yet."
+      },
+      {
+        "label":        "STEP 02 / CONCEPT",
+        "romanNumeral": "II",
+        "title":        "Direction and treatment",
+        "description":  "We translate your brief into a creative direction — visual references, narrative angles, mood. You receive a treatment document defining what we are about to build together."
+      },
+      {
+        "label":        "STEP 03 / PRODUCTION",
+        "romanNumeral": "III",
+        "title":        "Cinematic craft",
+        "description":  "The studio builds the work using our hybrid AI-augmented pipeline. You stay in the loop with checkpoint updates — but production noise stays with us, not with you."
+      },
+      {
+        "label":        "STEP 04 / REVIEW AT 80%",
+        "romanNumeral": "IV",
+        "title":        "Your sign-off, before final",
+        "description":  "We deliver a near-final version for your review. Critical decisions are still adjustable — colour, pacing, copy, emphasis. Your alignment here is the lock-in for the final polish."
+      },
+      {
+        "label":        "STEP 05 / DELIVERY",
+        "romanNumeral": "V",
+        "title":        "Final masters",
+        "description":  "Polished, broadcast-quality files in every format you need. Hand-off includes source documentation, usage notes, and full ownership transfer. The studio remains available for future iterations."
+      }
+    ],
+    "closing": "Two to eight weeks from discovery to delivery.\nNo surprises. No middlemen. No translation losses."
+  },
+  "services": {
+    "label":   "/// 04 — Engagement Types",
+    "heading": "Four ways to work together",
+    "intro":   "Every engagement is custom-scoped after a discovery call. These are the typical shapes our work takes.",
+    "caption": "All engagements custom-quoted after discovery. Typical project duration: two to eight weeks.",
+    "inquire": "Inquire",
+    "items": [
+      {
+        "numeral":     "I",
+        "name":        "Cinematic Brand Films",
+        "description": "15 to 90-second cinematic spots. AI-augmented direction with photorealistic finishing. Built for product launches, hero campaigns, and brand storytelling that needs to feel considered."
+      },
+      {
+        "numeral":     "II",
+        "name":        "Editorial Brand Websites",
+        "description": "Premium websites matching the cinematic feel of campaign work. Mobile-first, fast, considered. Designed to convert and built to last."
+      },
+      {
+        "numeral":     "III",
+        "name":        "Visual Identity in Motion",
+        "description": "Code-built motion design for logo systems, intros, outros, and brand animations. Pixel-perfect, infinitely scalable, broadcast-quality output."
+      },
+      {
+        "numeral":     "IV",
+        "name":        "Full Brand Engagements",
+        "description": "Combined web + film + identity work. One studio, one vision, one point of contact. Designed for founders ready to invest in long-term brand presence."
+      }
+    ]
+  },
+  "contact": {
+    "label":   "/// 05 — Begin",
+    "heading": {
+      "line1": "A conversation",
+      "line2": "is the first deliverable."
+    },
+    "intro": "Thirty minutes by call or email. We discuss the brand, the goals, the timeline. If there is a fit, we propose a scope. If not, you walk away with honest feedback.",
+    "methods": {
+      "telegram": { "label": "Telegram", "handle": "@studioname"     },
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
+      "email":    { "label": "Email",    "handle": "hello@studio.com" }
+    },
+    "form": {
+      "panelLabel":  "/// Project Inquiry",
+      "name":        "Your name",
+      "brand":       "Brand or company",
+      "email":       "Email",
+      "timeline":    "Project timeline",
+      "timelines":   ["Within 1 month", "1–3 months", "3+ months", "Just exploring"],
+      "message":     "Tell us about the project",
+      "submit":      "Send Inquiry →",
+      "success":     "Inquiry received. The studio responds within 48 hours."
+    }
+  },
+  "footer": {
+    "logo":     "STUDIO",
+    "location": "Brussels · Belgium",
+    "since":    "Operating since 2026",
+    "copy":     "© 2026 Studio — Crafted in Brussels",
+    "links":    ["Work", "Approach", "Services", "Contact"]
+  },
+  "forestAwakening": {
+    "title":     "Forest Awakening",
+    "shortDesc": "A botanical ritual. Cinematic AI direction exploring ingredient provenance through magical realism.",
+    "breadcrumb": "/// WORK / FOREST AWAKENING",
+    "videoCaption": "Forest Awakening — Full 15 second cut. 9:16 vertical.",
+    "videoPlaceholder": "Video uploaded soon",
+    "backToWork":   "← Back to all work",
+    "viewServices": "View services →",
+    "brief": {
+      "label": "/// THE BRIEF",
+      "title": "The brief",
+      "body":  "Belgian premium gin HAVN ANR — a small-batch spirit built on the narrative of returning home. The challenge: create a brand film that translates the gin's botanical complexity and Antwerp origin story into 15 seconds of vertical format, suitable for premium digital placements without using stock cinematography or generic AI imagery."
+    },
+    "approach": {
+      "label": "/// THE APPROACH",
+      "title": "The approach",
+      "body":  "A hybrid pipeline combining AI keyframe generation with cinematic 3D camera direction. Each ingredient — rhubarb, cinnamon, star anise, vanilla — receives its own dawn-forest moment, transforming through magical realism. Production used Nano Banana for stills, Kling 3.0 for animation, DaVinci Resolve for finishing. Total production time: nine days end-to-end."
+    },
+    "result": {
+      "label": "/// THE RESULT",
+      "title": "The result",
+      "body":  "A 15-second cinematic brand film delivered in vertical 9:16 for social-first placement, with a horizontal 16:9 cut for premium digital. Color-graded to broadcast standard, mastered at -14 LUFS. The film treats AI as a craft tool, not a shortcut — proving that intentional direction matters more than the generation method."
+    }
+  }
+}

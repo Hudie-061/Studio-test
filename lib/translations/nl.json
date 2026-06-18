@@ -1,0 +1,177 @@
+{
+  "_draft": "Automatische vertaling — beoordeling door moedertaalspreker vereist vóór definitieve publicatie.",
+  "nav": {
+    "work":    "Werk",
+    "process": "Aanpak",
+    "contact": "Contact"
+  },
+  "hero": {
+    "logo":      "STUDIO",
+    "tagline":   "Brussel · BE",
+    "label":     "/// Nieuwe opdrachten — 2026",
+    "headline": {
+      "line1": ["Wij", "creëren", "cinematische"],
+      "line2": ["aanwezigheid", "voor", "merken"],
+      "line3": ["die", "weigeren", "gewoon", "te", "zijn."],
+      "italicAmber": "cinematische"
+    },
+    "subheadline": "Een regisseersstudio die AI-ondersteunde cinematografische film combineert met redactionele merkpresentie. Gebouwd voor oprichters die hun merk beschouwen als hun belangrijkste investering.",
+    "ctaPrimary":   "Start een gesprek",
+    "ctaSecondary": "Bekijk geselecteerd werk",
+    "since":  "Actief sinds 2026",
+    "scroll": "Scroll"
+  },
+  "intro": {
+    "label":    "/// 01 — Introductie",
+    "headline": {
+      "line1":    "Een team van agency-veteranen,",
+      "line2":    "ambachtslieden die besloten",
+      "line3":    "om",
+      "emphasis": "anders te werken."
+    },
+    "story": {
+      "paragraph1": "We groeiden op in grote bureaus — het monteren van campagnefilms, het ontwerpen van merksystemen, het bouwen van websites, het regisseren van motion work voor klanten die we zelden ontmoetten. Het vakmanschap was echt. Het werk was repetitief. De erkenning was voor iemand anders.",
+      "paragraph2": "Dus vertrokken we. We bouwden ons eigen studio — klein, gefocust, selectief — om het werk te doen dat we altijd wilden doen, voor oprichters die écht geven om wat ze bouwen."
+    },
+    "punchline": {
+      "line1": "Wat dit voor uw bedrijf betekent:",
+      "line2": "vakmanschap van bureaukwaliteit, zonder de bureaukosten.",
+      "line3": "En een studio die persoonlijk geïnvesteerd is in het resultaat."
+    },
+    "closing": "Dit is wat wij leveren. Niets meer, niets minder."
+  },
+  "work": {
+    "label":    "/// 02 — Geselecteerd Werk",
+    "heading":  "Recente opdrachten",
+    "intro":    "Huidig geselecteerd werk. Nieuwe opdrachten worden gepubliceerd zodra ze zijn afgesloten.",
+    "moreSoon": "/// Premium Case Studies — Binnenkort",
+    "closing":  "Lopende opdrachten met premium merken worden hier gepubliceerd zodra ze zijn afgesloten. Abonneer u op de studio-e-mail om te worden geïnformeerd.",
+    "cta":      "Bekijk de case study"
+  },
+  "process": {
+    "label":    "/// 03 — PROCES",
+    "headline": {
+      "line1":       "Vijf stappen van idee",
+      "line2":       "naar",
+      "italicAmber": "oplevering."
+    },
+    "subtitle": "Elke opdracht volgt dezelfde doordachte methodologie. Voorspelbare structuur, maatwerk resultaat.",
+    "steps": [
+      {
+        "label":        "STAP 01 / ONTDEKKING",
+        "romanNumeral": "I",
+        "title":        "Het gesprek",
+        "description":  "Een gesprek van 30 minuten om het merk, de doelstellingen en de beperkingen te begrijpen. We luisteren eerst, stellen gerichte vragen en vertrekken met voldoende helderheid om een reikwijdte voor te stellen. Nog geen verplichting."
+      },
+      {
+        "label":        "STAP 02 / CONCEPT",
+        "romanNumeral": "II",
+        "title":        "Richting en behandeling",
+        "description":  "We vertalen uw briefing naar een creatieve richting — visuele referenties, narratieve invalshoeken, sfeer. U ontvangt een behandelingsdocument dat definieert wat we samen gaan bouwen."
+      },
+      {
+        "label":        "STAP 03 / PRODUCTIE",
+        "romanNumeral": "III",
+        "title":        "Cinematisch vakmanschap",
+        "description":  "Het studio bouwt het werk met onze hybride AI-ondersteunde pipeline. U blijft op de hoogte via checkpoint-updates — maar de productieruis blijft bij ons, niet bij u."
+      },
+      {
+        "label":        "STAP 04 / BEOORDELING OP 80%",
+        "romanNumeral": "IV",
+        "title":        "Uw goedkeuring, vóór het finale",
+        "description":  "We leveren een bijna-finale versie ter beoordeling. Kritieke beslissingen zijn nog aanpasbaar — kleur, tempo, tekst, nadruk. Uw akkoord hier is de vergrendeling voor de definitieve afwerking."
+      },
+      {
+        "label":        "STAP 05 / OPLEVERING",
+        "romanNumeral": "V",
+        "title":        "Definitieve masters",
+        "description":  "Gepolijste bestanden van uitzendkwaliteit in elk gewenst formaat. De overdracht bevat brondocumentatie, gebruiksnotities en volledige eigendomsoverdracht. Het studio blijft beschikbaar voor toekomstige iteraties."
+      }
+    ],
+    "closing": "Twee tot acht weken van ontdekking tot oplevering.\nGeen verrassingen. Geen tussenpersonen. Geen vertaalverliezen."
+  },
+  "services": {
+    "label":   "/// 04 — Samenwerkingsvormen",
+    "heading": "Vier manieren om samen te werken",
+    "intro":   "Elke opdracht wordt op maat bepaald na een ontdekkingsgesprek. Dit zijn de typische vormen die ons werk aanneemt.",
+    "caption": "Alle opdrachten worden na de ontdekking op maat geoffreerd. Typische projectduur: twee tot acht weken.",
+    "inquire": "Informeer",
+    "items": [
+      {
+        "numeral":     "I",
+        "name":        "Cinematische Merkfilms",
+        "description": "Cinematische spots van 15 tot 90 seconden. AI-ondersteunde regie met fotorealistische afwerking. Gebouwd voor productlanceringen, held-campagnes en merkverhalen die doordacht moeten aanvoelen."
+      },
+      {
+        "numeral":     "II",
+        "name":        "Redactionele Merkwebsites",
+        "description": "Premium websites die aansluiten bij de cinematische sfeer van campagnewerk. Mobile-first, snel, doordacht. Ontworpen om te converteren en gebouwd om te blijven."
+      },
+      {
+        "numeral":     "III",
+        "name":        "Visuele Identiteit in Beweging",
+        "description": "Code-gebouwde motion design voor logosystemen, intro's, outro's en merkanimaties. Pixel-perfect, oneindig schaalbaar, uitzendkwaliteit output."
+      },
+      {
+        "numeral":     "IV",
+        "name":        "Volledige Merkengagementen",
+        "description": "Gecombineerd web + film + identiteitswerk. Één studio, één visie, één contactpunt. Ontworpen voor oprichters die klaar zijn om te investeren in een langetermijn merkaanwezigheid."
+      }
+    ]
+  },
+  "contact": {
+    "label":   "/// 05 — Beginnen",
+    "heading": {
+      "line1": "Een gesprek",
+      "line2": "is het eerste opleverpunt."
+    },
+    "intro": "Dertig minuten via gesprek of e-mail. We bespreken het merk, de doelstellingen, de tijdlijn. Als er een match is, stellen we een reikwijdte voor. Zo niet, vertrekt u met eerlijke feedback.",
+    "methods": {
+      "telegram": { "label": "Telegram", "handle": "@studioname"     },
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
+      "email":    { "label": "E-mail",   "handle": "hello@studio.com" }
+    },
+    "form": {
+      "panelLabel":  "/// Projectaanvraag",
+      "name":        "Uw naam",
+      "brand":       "Merk of bedrijf",
+      "email":       "E-mail",
+      "timeline":    "Projecttijdlijn",
+      "timelines":   ["Binnen 1 maand", "1–3 maanden", "3+ maanden", "Oriënterend"],
+      "message":     "Vertel ons over het project",
+      "submit":      "Aanvraag versturen →",
+      "success":     "Aanvraag ontvangen. Het studio reageert binnen 48 uur."
+    }
+  },
+  "footer": {
+    "logo":     "STUDIO",
+    "location": "Brussel · België",
+    "since":    "Actief sinds 2026",
+    "copy":     "© 2026 Studio — Gemaakt in Brussel",
+    "links":    ["Werk", "Aanpak", "Services", "Contact"]
+  },
+  "forestAwakening": {
+    "title":     "Forest Awakening",
+    "shortDesc": "Een botanisch ritueel. Cinematografische AI-regie die de oorsprong van ingrediënten verkent via magisch realisme.",
+    "breadcrumb": "/// WERK / FOREST AWAKENING",
+    "videoCaption": "Forest Awakening — Volledige snede van 15 seconden. Verticaal 9:16.",
+    "videoPlaceholder": "Video binnenkort beschikbaar",
+    "backToWork":   "← Terug naar alle werk",
+    "viewServices": "Bekijk services →",
+    "brief": {
+      "label": "/// DE BRIEFING",
+      "title": "De briefing",
+      "body":  "Belgische premium gin HAVN ANR — een kleinschalige drank gebouwd op het verhaal van thuiskomst. De uitdaging: een merkfilm creëren die de botanische complexiteit van de gin en het Antwerpse oorsprongsverhaal vertaalt naar 15 seconden verticaal formaat, geschikt voor premium digitale plaatsingen zonder gebruik van stockcinematografie of generieke AI-beelden."
+    },
+    "approach": {
+      "label": "/// DE AANPAK",
+      "title": "De aanpak",
+      "body":  "Een hybride pipeline die AI-keyframegeneratie combineert met cinematografische 3D-cameraregie. Elk ingrediënt — rabarber, kaneel, steranijs, vanille — krijgt zijn eigen dageraadsbosmoment en transformeert door magisch realisme. De productie gebruikte Nano Banana voor stilstaande beelden, Kling 3.0 voor animatie, DaVinci Resolve voor afwerking. Totale productietijd: negen dagen van begin tot eind."
+    },
+    "result": {
+      "label": "/// HET RESULTAAT",
+      "title": "Het resultaat",
+      "body":  "Een cinematografische merkfilm van 15 seconden geleverd in verticaal 9:16 voor social-first plaatsing, met een horizontale 16:9 snede voor premium digitaal. Kleurgegraad naar uitzendstandaard, gemasterd op -14 LUFS. De film behandelt AI als een ambachtelijk hulpmiddel, geen snelkoppeling — en bewijst dat doelbewuste regie meer telt dan de generatiemethode."
+    }
+  }
+}

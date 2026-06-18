@@ -1,0 +1,177 @@
+{
+  "_draft": "Traduction automatique — révision par locuteur natif requise avant publication finale.",
+  "nav": {
+    "work":    "Projets",
+    "process": "Approche",
+    "contact": "Contact"
+  },
+  "hero": {
+    "logo":      "STUDIO",
+    "tagline":   "Bruxelles · BE",
+    "label":     "/// Nouveaux engagements — 2026",
+    "headline": {
+      "line1": ["Nous", "façonnons", "une"],
+      "line2": ["présence", "cinématographique"],
+      "line3": ["pour", "les", "marques", "qui", "refusent", "l'ordinaire."],
+      "italicAmber": "cinématographique"
+    },
+    "subheadline": "Un studio de direction combinant le film cinématographique augmenté par IA avec une présence de marque de qualité éditoriale. Construit pour les fondateurs qui considèrent leur marque comme leur investissement le plus important.",
+    "ctaPrimary":   "Commencer une conversation",
+    "ctaSecondary": "Voir les projets",
+    "since":  "En activité depuis 2026",
+    "scroll": "Défiler"
+  },
+  "intro": {
+    "label":    "/// 01 — Introduction",
+    "headline": {
+      "line1":    "Une équipe formée en agence,",
+      "line2":    "des artisans qui ont décidé",
+      "line3":    "de travailler",
+      "emphasis": "autrement."
+    },
+    "story": {
+      "paragraph1": "Nous avons grandi dans les grandes agences — en montant des films de campagne, en concevant des systèmes de marque, en construisant des sites web, en dirigeant des projets motion pour des clients que nous rencontrions rarement. Le savoir-faire était réel. Le travail était répétitif. La reconnaissance revenait à quelqu'un d'autre.",
+      "paragraph2": "Alors nous avons quitté. Nous avons construit notre propre studio — petit, ciblé, sélectif — pour faire le travail que nous avons toujours voulu faire, pour des fondateurs qui se soucient vraiment de ce qu'ils construisent."
+    },
+    "punchline": {
+      "line1": "Ce que cela signifie pour votre entreprise :",
+      "line2": "un savoir-faire d'agence, sans les frais d'agence.",
+      "line3": "Et un studio personnellement investi dans le résultat."
+    },
+    "closing": "C'est ce que nous livrons. Rien de plus, rien de moins."
+  },
+  "work": {
+    "label":    "/// 02 — Projets Sélectionnés",
+    "heading":  "Engagements récents",
+    "intro":    "Projets sélectionnés en cours. Nouveaux engagements publiés à leur clôture.",
+    "moreSoon": "/// Études de Cas Premium — À Venir",
+    "closing":  "Les engagements en cours avec des marques premium sont publiés ici à leur clôture. Abonnez-vous à l'e-mail du studio pour être notifié.",
+    "cta":      "Voir l'étude de cas"
+  },
+  "process": {
+    "label":    "/// 03 — PROCESSUS",
+    "headline": {
+      "line1":       "Cinq étapes de l'idée",
+      "line2":       "au",
+      "italicAmber": "livrable."
+    },
+    "subtitle": "Chaque engagement suit la même méthodologie réfléchie. Structure prévisible, résultat sur mesure.",
+    "steps": [
+      {
+        "label":        "ÉTAPE 01 / DÉCOUVERTE",
+        "romanNumeral": "I",
+        "title":        "La conversation",
+        "description":  "Un appel de 30 minutes pour comprendre la marque, les objectifs et les contraintes. Nous écoutons d'abord, posons des questions précises et repartons avec assez de clarté pour proposer une portée. Sans engagement."
+      },
+      {
+        "label":        "ÉTAPE 02 / CONCEPT",
+        "romanNumeral": "II",
+        "title":        "Direction et traitement",
+        "description":  "Nous traduisons votre brief en direction créative — références visuelles, angles narratifs, ambiance. Vous recevez un document de traitement définissant ce que nous allons construire ensemble."
+      },
+      {
+        "label":        "ÉTAPE 03 / PRODUCTION",
+        "romanNumeral": "III",
+        "title":        "Craft cinématographique",
+        "description":  "Le studio produit le travail via notre pipeline hybride augmenté par IA. Vous restez informé par des mises à jour régulières — mais le bruit de la production reste chez nous, pas chez vous."
+      },
+      {
+        "label":        "ÉTAPE 04 / RÉVISION À 80%",
+        "romanNumeral": "IV",
+        "title":        "Votre validation, avant le final",
+        "description":  "Nous livrons une version quasi finale pour votre révision. Les décisions clés restent ajustables — couleur, rythme, texte, emphase. Votre accord ici verrouille le polish final."
+      },
+      {
+        "label":        "ÉTAPE 05 / LIVRAISON",
+        "romanNumeral": "V",
+        "title":        "Masters finaux",
+        "description":  "Fichiers polis, prêts pour la diffusion, dans tous les formats nécessaires. La remise comprend documentation source, notes d'utilisation et transfert de propriété complet. Le studio reste disponible pour les futures itérations."
+      }
+    ],
+    "closing": "Deux à huit semaines de la découverte à la livraison.\nSans surprises. Sans intermédiaires. Sans pertes de traduction."
+  },
+  "services": {
+    "label":   "/// 04 — Types d'Engagement",
+    "heading": "Quatre façons de collaborer",
+    "intro":   "Chaque engagement est défini sur mesure après un appel de découverte. Ce sont les formes typiques que prend notre travail.",
+    "caption": "Tous les engagements sont devisés après la découverte. Durée typique : deux à huit semaines.",
+    "inquire": "Nous contacter",
+    "items": [
+      {
+        "numeral":     "I",
+        "name":        "Films de Marque Cinématographiques",
+        "description": "Spots cinématographiques de 15 à 90 secondes. Direction augmentée par IA avec finition photoréaliste. Conçus pour les lancements de produits, les campagnes héros et la narration de marque qui doit se sentir réfléchie."
+      },
+      {
+        "numeral":     "II",
+        "name":        "Sites Web Éditoriaux de Marque",
+        "description": "Sites premium à la hauteur du sentiment cinématographique du travail de campagne. Mobile-first, rapides, considérés. Conçus pour convertir et construits pour durer."
+      },
+      {
+        "numeral":     "III",
+        "name":        "Identité Visuelle en Mouvement",
+        "description": "Motion design construit en code pour les systèmes de logo, intros, outros et animations de marque. Pixel-perfect, infiniment évolutif, sortie de qualité broadcast."
+      },
+      {
+        "numeral":     "IV",
+        "name":        "Engagements de Marque Complets",
+        "description": "Travail combiné web + film + identité. Un studio, une vision, un point de contact. Conçu pour les fondateurs prêts à investir dans une présence de marque durable."
+      }
+    ]
+  },
+  "contact": {
+    "label":   "/// 05 — Commencer",
+    "heading": {
+      "line1": "Une conversation",
+      "line2": "est le premier livrable."
+    },
+    "intro": "Trente minutes par appel ou e-mail. Nous discutons de la marque, des objectifs, du calendrier. S'il y a une adéquation, nous proposons une portée. Sinon, vous repartez avec un retour honnête.",
+    "methods": {
+      "telegram": { "label": "Telegram", "handle": "@studioname"     },
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
+      "email":    { "label": "E-mail",   "handle": "hello@studio.com" }
+    },
+    "form": {
+      "panelLabel":  "/// Demande de Projet",
+      "name":        "Votre nom",
+      "brand":       "Marque ou entreprise",
+      "email":       "E-mail",
+      "timeline":    "Calendrier du projet",
+      "timelines":   ["Sous 1 mois", "1–3 mois", "3+ mois", "Exploration"],
+      "message":     "Parlez-nous du projet",
+      "submit":      "Envoyer la demande →",
+      "success":     "Demande reçue. Le studio répond sous 48 heures."
+    }
+  },
+  "footer": {
+    "logo":     "STUDIO",
+    "location": "Bruxelles · Belgique",
+    "since":    "En activité depuis 2026",
+    "copy":     "© 2026 Studio — Conçu à Bruxelles",
+    "links":    ["Projets", "Approche", "Services", "Contact"]
+  },
+  "forestAwakening": {
+    "title":     "Forest Awakening",
+    "shortDesc": "Un rituel botanique. Direction cinématographique IA explorant la provenance des ingrédients à travers le réalisme magique.",
+    "breadcrumb": "/// PROJETS / FOREST AWAKENING",
+    "videoCaption": "Forest Awakening — Coupe complète de 15 secondes. Format vertical 9:16.",
+    "videoPlaceholder": "Vidéo disponible prochainement",
+    "backToWork":   "← Retour aux projets",
+    "viewServices": "Voir les services →",
+    "brief": {
+      "label": "/// LE BRIEF",
+      "title": "Le brief",
+      "body":  "Gin premium belge HAVN ANR — un spiritueux en petite série construit sur le récit du retour à la maison. Le défi : créer un film de marque qui traduit la complexité botanique du gin et l'histoire d'origine anversoise en 15 secondes de format vertical, adapté aux placements digitaux premium sans recourir à la cinématographie de stock ou aux images IA génériques."
+    },
+    "approach": {
+      "label": "/// L'APPROCHE",
+      "title": "L'approche",
+      "body":  "Un pipeline hybride combinant la génération de keyframes IA avec une direction de caméra 3D cinématographique. Chaque ingrédient — rhubarbe, cannelle, anis étoilé, vanille — reçoit son propre moment en forêt à l'aube, se transformant à travers le réalisme magique. La production a utilisé Nano Banana pour les images fixes, Kling 3.0 pour l'animation, DaVinci Resolve pour la finition. Temps de production total : neuf jours de bout en bout."
+    },
+    "result": {
+      "label": "/// LE RÉSULTAT",
+      "title": "Le résultat",
+      "body":  "Un film de marque cinématographique de 15 secondes livré en vertical 9:16 pour un placement social-first, avec une coupe horizontale 16:9 pour le digital premium. Étalonné aux normes broadcast, masterisé à -14 LUFS. Le film traite l'IA comme un outil artisanal, pas un raccourci — prouvant que la direction intentionnelle compte plus que la méthode de génération."
+    }
+  }
+}
