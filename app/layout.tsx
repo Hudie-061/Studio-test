@@ -20,15 +20,29 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: "Studio — AI Cinematic Brand Films · Brussels",
+  metadataBase: new URL("https://vantir.studio"),
+  title: {
+    default: "VANTIR Studio",
+    template: "%s · VANTIR Studio",
+  },
   description:
-    "A directing studio combining AI tools with cinematic craft. We help brands deliver presence that feels considered, intentional, and unmistakably premium.",
+    "Cinematic brand films and editorial websites for businesses who refuse to look ordinary. Brussels.",
   openGraph: {
-    title: "Studio — AI Cinematic Brand Films · Brussels",
+    title: "VANTIR Studio",
     description:
-      "A directing studio combining AI tools with cinematic craft.",
+      "Cinematic brand films and editorial websites for businesses who refuse to look ordinary. Brussels.",
+    url: "https://vantir.studio",
+    siteName: "VANTIR Studio",
+    locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "VANTIR Studio",
+    description:
+      "Cinematic brand films and editorial websites for businesses who refuse to look ordinary. Brussels.",
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({

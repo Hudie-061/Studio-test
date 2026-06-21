@@ -3,6 +3,7 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/hooks/useTranslation";
 import type { Locale } from "@/lib/context/TranslationContext";
+import { LogoMark } from "@/components/logo/LogoMark";
 
 const LOCALES: Locale[] = ["en", "fr", "nl"];
 
@@ -30,9 +31,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start mb-10">
           {/* Left — studio mark */}
           <div>
-            <p className="font-newsreader italic text-2xl text-[#F5F1EA] leading-none mb-2">
-              {t.footer.logo}
-            </p>
+            <LogoMark size={20} showSubtitle color="#F5F1EA" className="mb-2" />
             <p className="font-inter text-xs tracking-widest uppercase text-[#6B7A6E] mb-3">
               {t.footer.location}
             </p>
