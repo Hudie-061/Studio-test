@@ -139,7 +139,11 @@
       "timelines":   ["Within 1 month", "1–3 months", "3+ months", "Just exploring"],
       "message":     "Tell us about the project",
       "submit":      "Send Inquiry →",
-      "success":     "Inquiry received. The studio responds within 48 hours."
+      "sending":         "Sending...",
+      "success":         "Message received. We'll be in touch within two business days.",
+      "error_generic":   "Something went wrong. Please try again or email hello@vantir.studio directly.",
+      "error_validation":"Please check the form fields and try again.",
+      "error_rate_limit":"Please wait a moment before sending another message."
     }
   },
   "footer": {

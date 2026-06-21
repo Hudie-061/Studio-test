@@ -140,7 +140,11 @@
       "timelines":   ["Sous 1 mois", "1–3 mois", "3+ mois", "Exploration"],
       "message":     "Parlez-nous du projet",
       "submit":      "Envoyer la demande →",
-      "success":     "Demande reçue. Le studio répond sous 48 heures."
+      "sending":         "Envoi en cours...",
+      "success":         "Message reçu. Nous reviendrons vers vous sous deux jours ouvrables.",
+      "error_generic":   "Une erreur s'est produite. Veuillez réessayer ou écrire directement à hello@vantir.studio.",
+      "error_validation":"Veuillez vérifier les champs du formulaire.",
+      "error_rate_limit":"Veuillez patienter avant d'envoyer un autre message."
     }
   },
   "footer": {

@@ -140,7 +140,11 @@
       "timelines":   ["Binnen 1 maand", "1–3 maanden", "3+ maanden", "Oriënterend"],
       "message":     "Vertel ons over het project",
       "submit":      "Aanvraag versturen →",
-      "success":     "Aanvraag ontvangen. Het studio reageert binnen 48 uur."
+      "sending":         "Versturen...",
+      "success":         "Bericht ontvangen. We nemen binnen twee werkdagen contact op.",
+      "error_generic":   "Er is iets misgegaan. Probeer opnieuw of mail rechtstreeks naar hello@vantir.studio.",
+      "error_validation":"Controleer de formuliervelden.",
+      "error_rate_limit":"Wacht even voordat u opnieuw stuurt."
     }
   },
   "footer": {
