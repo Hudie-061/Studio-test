@@ -1,19 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useTranslation } from "@/lib/hooks/useTranslation";
-import type { Locale } from "@/lib/context/TranslationContext";
 import { LogoMark } from "@/components/logo/LogoMark";
-
-const LOCALES: Locale[] = ["en", "fr", "nl"];
+import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
-  const { t, lang } = useTranslation();
-  const pathname = usePathname();
-  const router = useRouter();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -26,12 +21,6 @@ export default function Navigation() {
     { label: t.nav.process, href: "#process" },
     { label: t.nav.contact, href: "#contact" },
   ];
-
-  function switchLocale(locale: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = locale;
-    router.push(segments.join("/") || `/${locale}`);
-  }
 
   return (
     <motion.nav
@@ -60,25 +49,7 @@ export default function Navigation() {
         ))}
 
         {/* Language switcher — far right */}
-        <div className="flex items-center gap-2 ml-2 pl-6 border-l border-[rgba(245,241,234,0.12)]">
-          {LOCALES.map((locale, i) => (
-            <span key={locale} className="flex items-center gap-2">
-              <button
-                onClick={() => switchLocale(locale)}
-                className={`font-inter text-xs tracking-wider uppercase transition-colors duration-300 ${
-                  lang === locale
-                    ? "text-[#C8895A] font-medium"
-                    : "text-[#5C5853] hover:text-[#A39E96]"
-                }`}
-              >
-                {locale.toUpperCase()}
-              </button>
-              {i < LOCALES.length - 1 && (
-                <span className="text-[#5C5853] text-[10px]">·</span>
-              )}
-            </span>
-          ))}
-        </div>
+        <LanguageSwitcher className="ml-2 pl-6 border-l border-[rgba(245,241,234,0.12)]" />
       </div>
     </motion.nav>
   );
