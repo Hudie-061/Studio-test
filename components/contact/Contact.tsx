@@ -26,11 +26,13 @@ function ContactMethodRow({ label, handle, href }: ContactMethod) {
     y.set((e.clientY - r.top  - r.height / 2) * 0.25);
   };
 
+  const isExternal = !href.startsWith("mailto:") && !href.startsWith("tel:");
+
   return (
     <motion.a
       ref={ref}
       href={href}
-      target={href.startsWith("mailto") ? undefined : "_blank"}
+      target={isExternal ? "_blank" : undefined}
       rel="noopener noreferrer"
       style={{ x: spX, y: spY }}
       onMouseMove={onMouseMove}
@@ -53,9 +55,8 @@ export default function Contact() {
   const { methods, heading } = t.contact;
 
   const METHODS: ContactMethod[] = [
-    { label: methods.telegram.label, handle: methods.telegram.handle, href: "https://t.me/studioname"  },
-    { label: methods.whatsapp.label, handle: methods.whatsapp.handle, href: "https://wa.me/32000000000" },
-    { label: methods.email.label,    handle: methods.email.handle,    href: "mailto:hello@studio.com"   },
+    { label: methods.email.label,    handle: methods.email.handle,    href: `mailto:${methods.email.handle}` },
+    { label: methods.whatsapp.label, handle: methods.whatsapp.handle, href: "tel:+32477045071" },
   ];
 
   return (
@@ -94,6 +95,7 @@ export default function Contact() {
           {/* Right — cream contact panel */}
           <TextReveal delay={0.18}>
             <div
+              id="contact-form"
               data-bg="warm"
               className="bg-[#F5F1EA] py-12 px-10"
             >

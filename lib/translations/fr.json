@@ -61,7 +61,7 @@
         "label":        "ÉTAPE 01 / DÉCOUVERTE",
         "romanNumeral": "I",
         "title":        "La conversation",
-        "description":  "Un appel de 30 minutes pour comprendre la marque, les objectifs et les contraintes. Nous écoutons d'abord, posons des questions précises et repartons avec assez de clarté pour proposer une portée. Sans engagement."
+        "description":  "Un appel de dix minutes pour comprendre la marque, les objectifs et les contraintes. Nous écoutons d'abord, posons des questions précises et repartons avec assez de clarté pour proposer une portée. Sans engagement."
       },
       {
         "label":        "ÉTAPE 02 / CONCEPT",
@@ -88,7 +88,7 @@
         "description":  "Fichiers polis, prêts pour la diffusion, dans tous les formats nécessaires. La remise comprend documentation source, notes d'utilisation et transfert de propriété complet. Le studio reste disponible pour les futures itérations."
       }
     ],
-    "closing": "Deux à huit semaines de la découverte à la livraison.\nSans surprises. Sans intermédiaires. Sans pertes de traduction."
+    "closing": "De cinq à quinze jours ouvrés, du premier échange à la livraison finale.\nSans intermédiaires. Sans perte à la traduction."
   },
   "services": {
     "label":   "/// 04 — Types d'Engagement",
@@ -99,13 +99,13 @@
     "items": [
       {
         "numeral":     "I",
-        "name":        "Films de Marque Cinématographiques",
+        "name":        "Films de marque cinématographiques / Publicité",
         "description": "Spots cinématographiques de 15 à 90 secondes. Direction augmentée par IA avec finition photoréaliste. Conçus pour les lancements de produits, les campagnes héros et la narration de marque qui doit se sentir réfléchie."
       },
       {
         "numeral":     "II",
         "name":        "Sites Web Éditoriaux de Marque",
-        "description": "Sites premium à la hauteur du sentiment cinématographique du travail de campagne. Mobile-first, rapides, considérés. Conçus pour convertir et construits pour durer."
+        "description": "Des sites premium conçus autour de ce dont votre entreprise a réellement besoin — et de ce qui simplifie la vie des personnes que vous servez. Mobile-first, rapides, réfléchis. Accompagnement continu optionnel : abonnez-vous et nous gérons les évolutions au fil de la croissance de votre activité."
       },
       {
         "numeral":     "III",
@@ -125,11 +125,10 @@
       "line1": "Une conversation",
       "line2": "est le premier livrable."
     },
-    "intro": "Trente minutes par appel ou e-mail. Nous discutons de la marque, des objectifs, du calendrier. S'il y a une adéquation, nous proposons une portée. Sinon, vous repartez avec un retour honnête.",
+    "intro": "Dix minutes par appel ou e-mail. Nous discutons de la marque, des objectifs, du calendrier. S'il y a une adéquation, nous proposons une portée. Sinon, vous repartez avec un retour honnête.",
     "methods": {
-      "telegram": { "label": "Telegram", "handle": "@studioname"     },
-      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
-      "email":    { "label": "E-mail",   "handle": "hello@studio.com" }
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 477 045 071"      },
+      "email":    { "label": "E-mail",   "handle": "contact@vantir.studio" }
     },
     "form": {
       "panelLabel":  "/// Demande de Projet",
@@ -144,7 +143,14 @@
       "success":         "Message reçu. Nous reviendrons vers vous sous deux jours ouvrables.",
       "error_generic":   "Une erreur s'est produite. Veuillez réessayer ou écrire directement à hello@vantir.studio.",
       "error_validation":"Veuillez vérifier les champs du formulaire.",
-      "error_rate_limit":"Veuillez patienter avant d'envoyer un autre message."
+      "error_rate_limit":"Veuillez patienter avant d'envoyer un autre message.",
+      "field_name_required":  "Veuillez indiquer votre nom",
+      "field_email_required": "Veuillez indiquer une adresse e-mail valide",
+      "field_message_too_long": "Le message est trop long (5000 caractères maximum)",
+      "empty_message_title": "Encore rien sur le projet ?",
+      "empty_message_body":  "Même une phrase nous aide à préparer de meilleures questions et à avancer plus vite une fois en contact. Envoyer quand même ?",
+      "empty_message_add":   "Ajouter quelques mots",
+      "empty_message_send":  "Envoyer quand même"
     }
   },
   "footer": {
@@ -177,5 +183,39 @@
       "title": "Le résultat",
       "body":  "Un film de marque cinématographique de 15 secondes livré en vertical 9:16 pour un placement social-first, avec une coupe horizontale 16:9 pour le digital premium. Étalonné aux normes broadcast, masterisé à -14 LUFS. Le film traite l'IA comme un outil artisanal, pas un raccourci — prouvant que la direction intentionnelle compte plus que la méthode de génération."
     }
+  },
+  "subscription": {
+    "label": "/// 06 — EN CONTINU",
+    "headline": {
+      "line1":       "Construire une fois.",
+      "line2":       "Évoluer",
+      "italicAmber": "continuellement."
+    },
+    "subhead": "Une fois votre site lancé, vous pouvez vous abonner à un accompagnement continu. Nous gérons les changements — textes, composants, nouvelles pages, intégrations — sans nouvelles factures, guerres de périmètre, ni intermédiaires.",
+    "recommended": "Recommandé",
+    "subscribe": "S'abonner",
+    "tiers": [
+      {
+        "numeral":     "I",
+        "name":        "Essentiel",
+        "description": "Pour les sites qui ont besoin d'un entretien léger. Jusqu'à 2 demandes de modification par mois, surveillance de la disponibilité, bilan de santé mensuel.",
+        "price":       "€XXX / mois",
+        "planKey":     "essential"
+      },
+      {
+        "numeral":     "II",
+        "name":        "Réfléchi",
+        "description": "Pour les marques actives. Jusqu'à 6 demandes de modification par mois, mises à jour de contenu, appel stratégique trimestriel, réponse prioritaire.",
+        "price":       "€XXX / mois",
+        "planKey":     "considered"
+      },
+      {
+        "numeral":     "III",
+        "name":        "Sur mesure",
+        "description": "Pour les marques qui considèrent leur site comme un actif vivant. Demandes de modification illimitées dans le cadre défini, créneaux de traitement dédiés, partenariat créatif continu.",
+        "price":       "Sur devis",
+        "planKey":     "bespoke"
+      }
+    ]
   }
 }

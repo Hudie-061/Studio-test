@@ -51,7 +51,7 @@ export default function ServicesList() {
           {/* Inquire link */}
           <div className="w-full md:w-[10%] md:text-right md:pt-2 shrink-0">
             <a
-              href="#contact"
+              href="#contact-form"
               className="font-inter text-[10px] uppercase tracking-widest text-[#6B7A6E] hover:text-[#C8895A] transition-colors duration-300 whitespace-nowrap"
             >
               {t.services.inquire} →

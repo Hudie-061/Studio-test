@@ -60,7 +60,7 @@
         "label":        "STEP 01 / DISCOVERY",
         "romanNumeral": "I",
         "title":        "The conversation",
-        "description":  "A 30-minute call to understand the brand, the goals, and the constraints. We listen first, ask precise questions, and leave with enough clarity to propose a scope. No commitment yet."
+        "description":  "A 10-minute call to understand the brand, the goals, and the constraints. We listen first, ask precise questions, and leave with enough clarity to propose a scope. No commitment yet."
       },
       {
         "label":        "STEP 02 / CONCEPT",
@@ -87,7 +87,7 @@
         "description":  "Polished, broadcast-quality files in every format you need. Hand-off includes source documentation, usage notes, and full ownership transfer. The studio remains available for future iterations."
       }
     ],
-    "closing": "Two to eight weeks from discovery to delivery.\nNo surprises. No middlemen. No translation losses."
+    "closing": "Five to fifteen working days from first call to final master.\nNo middlemen. No translation losses."
   },
   "services": {
     "label":   "/// 04 — Engagement Types",
@@ -98,13 +98,13 @@
     "items": [
       {
         "numeral":     "I",
-        "name":        "Cinematic Brand Films",
+        "name":        "Cinematic Brand Films / Advertising",
         "description": "15 to 90-second cinematic spots. AI-augmented direction with photorealistic finishing. Built for product launches, hero campaigns, and brand storytelling that needs to feel considered."
       },
       {
         "numeral":     "II",
         "name":        "Editorial Brand Websites",
-        "description": "Premium websites matching the cinematic feel of campaign work. Mobile-first, fast, considered. Designed to convert and built to last."
+        "description": "Premium websites built around what your business actually needs — and what makes life easier for the people you serve. Mobile-first, fast, considered. Optional ongoing support: subscribe and we handle changes as your business evolves."
       },
       {
         "numeral":     "III",
@@ -124,11 +124,10 @@
       "line1": "A conversation",
       "line2": "is the first deliverable."
     },
-    "intro": "Thirty minutes by call or email. We discuss the brand, the goals, the timeline. If there is a fit, we propose a scope. If not, you walk away with honest feedback.",
+    "intro": "Ten minutes by call or email. We discuss the brand, the goals, the timeline. If there is a fit, we propose a scope. If not, you walk away with honest feedback.",
     "methods": {
-      "telegram": { "label": "Telegram", "handle": "@studioname"     },
-      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
-      "email":    { "label": "Email",    "handle": "hello@studio.com" }
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 477 045 071"     },
+      "email":    { "label": "Email",    "handle": "contact@vantir.studio" }
     },
     "form": {
       "panelLabel":  "/// Project Inquiry",
@@ -143,7 +142,14 @@
       "success":         "Message received. We'll be in touch within two business days.",
       "error_generic":   "Something went wrong. Please try again or email hello@vantir.studio directly.",
       "error_validation":"Please check the form fields and try again.",
-      "error_rate_limit":"Please wait a moment before sending another message."
+      "error_rate_limit":"Please wait a moment before sending another message.",
+      "field_name_required":  "Please enter your name",
+      "field_email_required": "Please enter a valid email address",
+      "field_message_too_long": "Message is too long (max 5000 characters)",
+      "empty_message_title": "Nothing about the project yet?",
+      "empty_message_body":  "Even one sentence helps us prepare better questions and move faster once we talk. Send anyway?",
+      "empty_message_add":   "Add a few words",
+      "empty_message_send":  "Send anyway"
     }
   },
   "footer": {
@@ -176,5 +182,39 @@
       "title": "The result",
       "body":  "A 15-second cinematic brand film delivered in vertical 9:16 for social-first placement, with a horizontal 16:9 cut for premium digital. Color-graded to broadcast standard, mastered at -14 LUFS. The film treats AI as a craft tool, not a shortcut — proving that intentional direction matters more than the generation method."
     }
+  },
+  "subscription": {
+    "label": "/// 06 — ONGOING",
+    "headline": {
+      "line1":       "Build once.",
+      "line2":       "Evolve",
+      "italicAmber": "continuously."
+    },
+    "subhead": "Once your site ships, you can subscribe to ongoing support. We handle changes — copy, components, new pages, integrations — without new invoices, scope wars, or middlemen.",
+    "recommended": "Recommended",
+    "subscribe": "Subscribe",
+    "tiers": [
+      {
+        "numeral":     "I",
+        "name":        "Essential",
+        "description": "For sites that need light upkeep. Up to 2 change requests per month, monitored uptime, monthly health check.",
+        "price":       "€XXX / month",
+        "planKey":     "essential"
+      },
+      {
+        "numeral":     "II",
+        "name":        "Considered",
+        "description": "For active brands. Up to 6 change requests per month, content updates, quarterly strategy call, priority response.",
+        "price":       "€XXX / month",
+        "planKey":     "considered"
+      },
+      {
+        "numeral":     "III",
+        "name":        "Bespoke",
+        "description": "For brands treating the site as a living asset. Unlimited change requests within scope, dedicated turnaround windows, ongoing creative partnership.",
+        "price":       "Custom",
+        "planKey":     "bespoke"
+      }
+    ]
   }
 }

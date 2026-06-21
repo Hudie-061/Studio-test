@@ -64,7 +64,7 @@ export default function Hero() {
           >
             <MagneticButton>
               <a
-                href="#contact"
+                href="#contact-form"
                 data-cursor="cta"
                 className="inline-block font-inter text-[11px] tracking-widest uppercase text-[#C8895A] border border-[#C8895A] px-10 py-4 hover:bg-[#C8895A] hover:text-[#0F0E0C] transition-all duration-300"
               >

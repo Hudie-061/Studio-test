@@ -4,6 +4,7 @@ import Work           from "@/components/work/Work";
 import Process        from "@/components/process/Process";
 import Services       from "@/components/services/Services";
 import Contact        from "@/components/contact/Contact";
+import Subscription   from "@/components/subscription/Subscription";
 import Footer         from "@/components/shared/Footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Process />
       <Services />
       <Contact />
+      <Subscription />
       <Footer />
     </main>
   );

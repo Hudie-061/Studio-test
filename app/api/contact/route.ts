@@ -138,8 +138,10 @@ function validateBody(
   if (!EMAIL_REGEX.test(email)) {
     return { valid: false, error: "Please provide a valid email address." };
   }
-  if (message.length < 10 || message.length > 5000) {
-    return { valid: false, error: "Message must be between 10 and 5000 characters." };
+  // Message is optional; the client confirms intent via a modal before
+  // submitting with an empty message, so the server only caps length.
+  if (message.length > 5000) {
+    return { valid: false, error: "Message must be 5000 characters or fewer." };
   }
 
   return { valid: true, data: { name, email, message, locale, projectType, brand } };
@@ -184,7 +186,9 @@ function buildEmailHtml(data: ValidatedContact): string {
                 </table>
 
                 <p style="font-family:system-ui,-apple-system,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:#5C5853;margin:0 0 8px;">Message</p>
-                <p style="font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.6;color:#0F0E0C;white-space:pre-wrap;margin:0 0 32px;">${escapeHtml(data.message)}</p>
+                <p style="font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.6;color:#0F0E0C;white-space:pre-wrap;margin:0 0 32px;">${
+                  data.message ? escapeHtml(data.message) : "<em>(no message provided)</em>"
+                }</p>
 
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-top:1px solid #A39E96;">
                   <tr>

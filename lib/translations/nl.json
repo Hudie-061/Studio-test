@@ -61,7 +61,7 @@
         "label":        "STAP 01 / ONTDEKKING",
         "romanNumeral": "I",
         "title":        "Het gesprek",
-        "description":  "Een gesprek van 30 minuten om het merk, de doelstellingen en de beperkingen te begrijpen. We luisteren eerst, stellen gerichte vragen en vertrekken met voldoende helderheid om een reikwijdte voor te stellen. Nog geen verplichting."
+        "description":  "Een gesprek van tien minuten om het merk, de doelstellingen en de beperkingen te begrijpen. We luisteren eerst, stellen gerichte vragen en vertrekken met voldoende helderheid om een reikwijdte voor te stellen. Nog geen verplichting."
       },
       {
         "label":        "STAP 02 / CONCEPT",
@@ -88,7 +88,7 @@
         "description":  "Gepolijste bestanden van uitzendkwaliteit in elk gewenst formaat. De overdracht bevat brondocumentatie, gebruiksnotities en volledige eigendomsoverdracht. Het studio blijft beschikbaar voor toekomstige iteraties."
       }
     ],
-    "closing": "Twee tot acht weken van ontdekking tot oplevering.\nGeen verrassingen. Geen tussenpersonen. Geen vertaalverliezen."
+    "closing": "Vijf tot vijftien werkdagen, van het eerste gesprek tot de eindlevering.\nZonder tussenpersonen. Zonder vertaalverlies."
   },
   "services": {
     "label":   "/// 04 — Samenwerkingsvormen",
@@ -99,13 +99,13 @@
     "items": [
       {
         "numeral":     "I",
-        "name":        "Cinematische Merkfilms",
+        "name":        "Cinematische merkfilms / Reclame",
         "description": "Cinematische spots van 15 tot 90 seconden. AI-ondersteunde regie met fotorealistische afwerking. Gebouwd voor productlanceringen, held-campagnes en merkverhalen die doordacht moeten aanvoelen."
       },
       {
         "numeral":     "II",
         "name":        "Redactionele Merkwebsites",
-        "description": "Premium websites die aansluiten bij de cinematische sfeer van campagnewerk. Mobile-first, snel, doordacht. Ontworpen om te converteren en gebouwd om te blijven."
+        "description": "Premium websites gebouwd rond wat uw bedrijf werkelijk nodig heeft — en wat het leven makkelijker maakt voor de mensen die u bedient. Mobile-first, snel, doordacht. Optionele doorlopende ondersteuning: abonneer u en wij verwerken wijzigingen terwijl uw bedrijf groeit."
       },
       {
         "numeral":     "III",
@@ -125,11 +125,10 @@
       "line1": "Een gesprek",
       "line2": "is het eerste opleverpunt."
     },
-    "intro": "Dertig minuten via gesprek of e-mail. We bespreken het merk, de doelstellingen, de tijdlijn. Als er een match is, stellen we een reikwijdte voor. Zo niet, vertrekt u met eerlijke feedback.",
+    "intro": "Tien minuten via gesprek of e-mail. We bespreken het merk, de doelstellingen, de tijdlijn. Als er een match is, stellen we een reikwijdte voor. Zo niet, vertrekt u met eerlijke feedback.",
     "methods": {
-      "telegram": { "label": "Telegram", "handle": "@studioname"     },
-      "whatsapp": { "label": "WhatsApp", "handle": "+32 XXX XXX XXX" },
-      "email":    { "label": "E-mail",   "handle": "hello@studio.com" }
+      "whatsapp": { "label": "WhatsApp", "handle": "+32 477 045 071"      },
+      "email":    { "label": "E-mail",   "handle": "contact@vantir.studio" }
     },
     "form": {
       "panelLabel":  "/// Projectaanvraag",
@@ -144,7 +143,14 @@
       "success":         "Bericht ontvangen. We nemen binnen twee werkdagen contact op.",
       "error_generic":   "Er is iets misgegaan. Probeer opnieuw of mail rechtstreeks naar hello@vantir.studio.",
       "error_validation":"Controleer de formuliervelden.",
-      "error_rate_limit":"Wacht even voordat u opnieuw stuurt."
+      "error_rate_limit":"Wacht even voordat u opnieuw stuurt.",
+      "field_name_required":  "Vul uw naam in",
+      "field_email_required": "Vul een geldig e-mailadres in",
+      "field_message_too_long": "Bericht is te lang (max. 5000 tekens)",
+      "empty_message_title": "Nog niets over het project?",
+      "empty_message_body":  "Al één zin helpt ons om betere vragen voor te bereiden en sneller te schakelen zodra we spreken. Toch versturen?",
+      "empty_message_add":   "Voeg een paar woorden toe",
+      "empty_message_send":  "Toch versturen"
     }
   },
   "footer": {
@@ -177,5 +183,39 @@
       "title": "Het resultaat",
       "body":  "Een cinematografische merkfilm van 15 seconden geleverd in verticaal 9:16 voor social-first plaatsing, met een horizontale 16:9 snede voor premium digitaal. Kleurgegraad naar uitzendstandaard, gemasterd op -14 LUFS. De film behandelt AI als een ambachtelijk hulpmiddel, geen snelkoppeling — en bewijst dat doelbewuste regie meer telt dan de generatiemethode."
     }
+  },
+  "subscription": {
+    "label": "/// 06 — DOORLOPEND",
+    "headline": {
+      "line1":       "Eenmaal bouwen.",
+      "line2":       "Evolueer",
+      "italicAmber": "voortdurend."
+    },
+    "subhead": "Zodra uw site live is, kunt u zich abonneren op doorlopende ondersteuning. Wij verwerken wijzigingen — tekst, componenten, nieuwe pagina's, integraties — zonder nieuwe facturen, scope-discussies of tussenpersonen.",
+    "recommended": "Aanbevolen",
+    "subscribe": "Abonneren",
+    "tiers": [
+      {
+        "numeral":     "I",
+        "name":        "Essentieel",
+        "description": "Voor sites die lichte verzorging nodig hebben. Tot 2 wijzigingsverzoeken per maand, gemonitorde uptime, maandelijkse gezondheidscheck.",
+        "price":       "€XXX / maand",
+        "planKey":     "essential"
+      },
+      {
+        "numeral":     "II",
+        "name":        "Doordacht",
+        "description": "Voor actieve merken. Tot 6 wijzigingsverzoeken per maand, contentupdates, kwartaalgesprek over strategie, prioritaire reactie.",
+        "price":       "€XXX / maand",
+        "planKey":     "considered"
+      },
+      {
+        "numeral":     "III",
+        "name":        "Op maat",
+        "description": "Voor merken die de site als een levend bezit behandelen. Onbeperkte wijzigingsverzoeken binnen scope, toegewezen doorlooptijden, doorlopend creatief partnerschap.",
+        "price":       "Op aanvraag",
+        "planKey":     "bespoke"
+      }
+    ]
   }
 }
