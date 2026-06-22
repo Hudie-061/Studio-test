@@ -18,21 +18,6 @@ export default function Hero() {
       <GrainOverlay />
       <Navigation />
 
-      {/* Studio mark — top left */}
-      <motion.div
-        initial={{ opacity: 0, y: -6 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.15, duration: 0.8, ease: "easeOut" }}
-        className="absolute top-7 left-6 md:left-12 z-50"
-      >
-        <p className="font-newsreader italic text-xl text-[#F5F1EA] leading-none">
-          {t.hero.logo}
-        </p>
-        <p className="font-inter text-[10px] tracking-widest text-[#A39E96] uppercase mt-1.5">
-          {t.hero.tagline}
-        </p>
-      </motion.div>
-
       {/* Center content */}
       <div className="relative z-10 flex-1 flex flex-col justify-center px-6 md:px-12 max-w-7xl mx-auto w-full">
         <div className="w-full md:w-3/5 xl:w-1/2">
