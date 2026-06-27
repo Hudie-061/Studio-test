@@ -5,6 +5,9 @@ export const runtime = "edge";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
+const WARM_CREAM = "#F0E8D8";
+const WARM_DARK = "#1C1814";
+
 export default async function AppleIcon() {
   const newsreader = await loadGoogleFont("Newsreader", 400);
   const fontSize = 28;
@@ -18,7 +21,7 @@ export default async function AppleIcon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0F0E0C",
+          background: WARM_CREAM,
         }}
       >
         <span
@@ -27,7 +30,7 @@ export default async function AppleIcon() {
             fontWeight: 400,
             fontSize,
             letterSpacing: `${fontSize * 0.2}px`,
-            color: "#F5F1EA",
+            color: WARM_DARK,
             lineHeight: 1,
           }}
         >

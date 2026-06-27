@@ -43,6 +43,14 @@ export const metadata: Metadata = {
       "Cinematic brand films and editorial websites for businesses who refuse to look ordinary. Brussels.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-icon",
+  },
 };
 
 export default function RootLayout({
