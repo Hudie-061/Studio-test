@@ -10,6 +10,7 @@ export interface Project {
   editorialDesc: string;
   paragraph: string;
   thumbnailGradient: string;
+  poster?: string;
   accentColor: string;
   aspectRatio: string;
   metadata: ProjectMeta[];

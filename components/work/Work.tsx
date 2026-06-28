@@ -15,6 +15,7 @@ const FOREST_AWAKENING: Project = {
     "Built end-to-end as a speculative concept for a premium Belgian gin distillery. Generative imagery combined with cinematic 3D camera direction, organic transformation, and editorial colour treatment. Delivered as 15-second vertical hero film with native 2D and 3D motion.",
   thumbnailGradient:
     "linear-gradient(155deg, #1C1005 0%, #2D1E0A 30%, #3D2812 55%, #1A1005 80%, #0F0E0C 100%)",
+  poster: "/work/forest-awakening/poster.png",
   accentColor: "#C8895A",
   aspectRatio: "9/16",
   metadata: [

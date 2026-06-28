@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Project } from "@/types";
 import MagneticButton from "@/components/shared/MagneticButton";
 import TextReveal from "@/components/shared/TextReveal";
@@ -32,14 +33,27 @@ export default function ProjectHero({
           className={imageLeft ? "w-full md:w-[60%]" : "w-full md:w-[60%]"}
           y={40}
         >
-          <div
-            className="relative overflow-hidden group"
+          <a
+            href={caseStudyHref}
+            aria-label={`${t.work.cta} — ${project.title}`}
+            data-cursor="interactive"
+            className="relative overflow-hidden group block"
             style={{ aspectRatio: project.aspectRatio }}
           >
             <div
-              className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-[1.025]"
+              className="absolute inset-0 transition-transform duration-[600ms] ease-out group-hover:scale-[1.02]"
               style={{ background: project.thumbnailGradient }}
             />
+            {project.poster && (
+              <Image
+                src={project.poster}
+                alt={project.title}
+                fill
+                priority
+                sizes="(min-width: 768px) 60vw, 100vw"
+                className="absolute inset-0 object-cover transition-transform duration-[600ms] ease-out group-hover:scale-[1.02]"
+              />
+            )}
             <div
               className="absolute inset-0 opacity-25 group-hover:opacity-45 transition-opacity duration-500"
               style={{
@@ -47,12 +61,15 @@ export default function ProjectHero({
               }}
             />
             <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-[#0F0E0C]/60 to-transparent" />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[#0F0E0C]/10">
-              <p className="font-inter text-[10px] tracking-[0.3em] uppercase text-[#F5F1EA]">
-                Play Project
-              </p>
-            </div>
-          </div>
+            {project.poster && (
+              <div
+                className="absolute inset-x-0 bottom-0 h-1/4"
+                style={{
+                  background: "linear-gradient(to top, rgba(28,24,20,0.4) 0%, transparent 70%)",
+                }}
+              />
+            )}
+          </a>
         </TextReveal>
 
         {/* Editorial metadata */}
