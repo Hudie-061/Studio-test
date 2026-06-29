@@ -35,3 +35,6 @@ next-env.d.ts
 
 # claude
 .claude/settings.local.json
+
+# brand artifacts (generated locally, not site assets)
+brand-exports/

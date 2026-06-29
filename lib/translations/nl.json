@@ -164,14 +164,14 @@
     "title":     "Forest Awakening",
     "shortDesc": "Een botanisch ritueel. Cinematografische AI-regie die de oorsprong van ingrediënten verkent via magisch realisme.",
     "breadcrumb": "/// WERK / FOREST AWAKENING",
-    "videoCaption": "Forest Awakening — Volledige snede van 15 seconden. Verticaal 9:16.",
+    "videoCaption": "Forest Awakening — Volledige snede van 30 seconden. Verticaal 9:16.",
     "videoPlaceholder": "Video binnenkort beschikbaar",
     "backToWork":   "← Terug naar alle werk",
     "viewServices": "Bekijk services →",
     "brief": {
       "label": "/// DE BRIEFING",
       "title": "De briefing",
-      "body":  "Belgische premium gin HAVN ANR — een kleinschalige drank gebouwd op het verhaal van thuiskomst. De uitdaging: een merkfilm creëren die de botanische complexiteit van de gin en het Antwerpse oorsprongsverhaal vertaalt naar 15 seconden verticaal formaat, geschikt voor premium digitale plaatsingen zonder gebruik van stockcinematografie of generieke AI-beelden."
+      "body":  "Belgische premium gin HAVN ANR — een kleinschalige drank gebouwd op het verhaal van thuiskomst. De uitdaging: een merkfilm creëren die de botanische complexiteit van de gin en het Antwerpse oorsprongsverhaal vertaalt naar 30 seconden verticaal formaat, geschikt voor premium digitale plaatsingen zonder gebruik van stockcinematografie of generieke AI-beelden."
     },
     "approach": {
       "label": "/// DE AANPAK",
@@ -181,7 +181,7 @@
     "result": {
       "label": "/// HET RESULTAAT",
       "title": "Het resultaat",
-      "body":  "Een cinematografische merkfilm van 15 seconden geleverd in verticaal 9:16 voor social-first plaatsing, met een horizontale 16:9 snede voor premium digitaal. Kleurgegraad naar uitzendstandaard, gemasterd op -14 LUFS. De film behandelt AI als een ambachtelijk hulpmiddel, geen snelkoppeling — en bewijst dat doelbewuste regie meer telt dan de generatiemethode."
+      "body":  "Een cinematografische merkfilm van 30 seconden geleverd in verticaal 9:16 voor social-first plaatsing, met een horizontale 16:9 snede voor premium digitaal. Kleurgegraad naar uitzendstandaard, gemasterd op -14 LUFS. De film behandelt AI als een ambachtelijk hulpmiddel, geen snelkoppeling — en bewijst dat doelbewuste regie meer telt dan de generatiemethode."
     }
   },
   "subscription": {
@@ -217,5 +217,11 @@
         "planKey":     "bespoke"
       }
     ]
+  },
+  "videoPlayer": {
+    "playLabel":    "Film afspelen",
+    "pauseLabel":   "Pauzeren",
+    "muteLabel":    "Dempen",
+    "unmuteLabel":  "Dempen opheffen"
   }
 }

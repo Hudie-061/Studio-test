@@ -164,14 +164,14 @@
     "title":     "Forest Awakening",
     "shortDesc": "Un rituel botanique. Direction cinématographique IA explorant la provenance des ingrédients à travers le réalisme magique.",
     "breadcrumb": "/// PROJETS / FOREST AWAKENING",
-    "videoCaption": "Forest Awakening — Coupe complète de 15 secondes. Format vertical 9:16.",
+    "videoCaption": "Forest Awakening — Coupe complète de 30 secondes. Format vertical 9:16.",
     "videoPlaceholder": "Vidéo disponible prochainement",
     "backToWork":   "← Retour aux projets",
     "viewServices": "Voir les services →",
     "brief": {
       "label": "/// LE BRIEF",
       "title": "Le brief",
-      "body":  "Gin premium belge HAVN ANR — un spiritueux en petite série construit sur le récit du retour à la maison. Le défi : créer un film de marque qui traduit la complexité botanique du gin et l'histoire d'origine anversoise en 15 secondes de format vertical, adapté aux placements digitaux premium sans recourir à la cinématographie de stock ou aux images IA génériques."
+      "body":  "Gin premium belge HAVN ANR — un spiritueux en petite série construit sur le récit du retour à la maison. Le défi : créer un film de marque qui traduit la complexité botanique du gin et l'histoire d'origine anversoise en 30 secondes de format vertical, adapté aux placements digitaux premium sans recourir à la cinématographie de stock ou aux images IA génériques."
     },
     "approach": {
       "label": "/// L'APPROCHE",
@@ -181,7 +181,7 @@
     "result": {
       "label": "/// LE RÉSULTAT",
       "title": "Le résultat",
-      "body":  "Un film de marque cinématographique de 15 secondes livré en vertical 9:16 pour un placement social-first, avec une coupe horizontale 16:9 pour le digital premium. Étalonné aux normes broadcast, masterisé à -14 LUFS. Le film traite l'IA comme un outil artisanal, pas un raccourci — prouvant que la direction intentionnelle compte plus que la méthode de génération."
+      "body":  "Un film de marque cinématographique de 30 secondes livré en vertical 9:16 pour un placement social-first, avec une coupe horizontale 16:9 pour le digital premium. Étalonné aux normes broadcast, masterisé à -14 LUFS. Le film traite l'IA comme un outil artisanal, pas un raccourci — prouvant que la direction intentionnelle compte plus que la méthode de génération."
     }
   },
   "subscription": {
@@ -217,5 +217,11 @@
         "planKey":     "bespoke"
       }
     ]
+  },
+  "videoPlayer": {
+    "playLabel":    "Lire le film",
+    "pauseLabel":   "Pause",
+    "muteLabel":    "Couper le son",
+    "unmuteLabel":  "Activer le son"
   }
 }

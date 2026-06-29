@@ -12,7 +12,7 @@ const FOREST_AWAKENING: Project = {
   editorialDesc:
     "A botanical ritual. Cinematic AI direction exploring ingredient provenance through magical realism.",
   paragraph:
-    "Built end-to-end as a speculative concept for a premium Belgian gin distillery. Generative imagery combined with cinematic 3D camera direction, organic transformation, and editorial colour treatment. Delivered as 15-second vertical hero film with native 2D and 3D motion.",
+    "Built end-to-end as a speculative concept for a premium Belgian gin distillery. Generative imagery combined with cinematic 3D camera direction, organic transformation, and editorial colour treatment. Delivered as 30-second vertical hero film with native 2D and 3D motion.",
   thumbnailGradient:
     "linear-gradient(155deg, #1C1005 0%, #2D1E0A 30%, #3D2812 55%, #1A1005 80%, #0F0E0C 100%)",
   poster: "/work/forest-awakening/poster.png",
@@ -21,7 +21,7 @@ const FOREST_AWAKENING: Project = {
   metadata: [
     { label: "CLIENT",      value: "Belgian Premium Gin" },
     { label: "YEAR",        value: "2026" },
-    { label: "DELIVERABLE", value: "15s Brand Film · 9:16" },
+    { label: "DELIVERABLE", value: "30s Brand Film · 9:16" },
     { label: "CATEGORY",    value: "Spec Concept" },
   ],
 };
@@ -53,7 +53,7 @@ export default function Work() {
       </div>
 
       {/* Breath */}
-      <div className="h-screen" aria-hidden="true" />
+      <div className="h-16 md:h-24" aria-hidden="true" />
 
       {/* Forest Awakening */}
       <ProjectHero project={FOREST_AWAKENING} imageLeft slug="forest-awakening" />

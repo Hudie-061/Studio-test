@@ -7,6 +7,7 @@ import Navigation from "@/components/shared/Navigation";
 import Footer from "@/components/shared/Footer";
 import { useTranslation } from "@/lib/hooks/useTranslation";
 import type { ProjectData } from "@/lib/projects/index";
+import VideoPlayer from "@/components/video-player/VideoPlayer";
 
 interface CaseStudyPageProps {
   project: ProjectData;
@@ -116,67 +117,60 @@ export default function CaseStudyPage({ project }: CaseStudyPageProps) {
             </TextReveal>
           </div>
 
-          {/* Right — hero visual placeholder */}
+          {/* Right — video player */}
           <TextReveal className="w-full lg:w-1/2" delay={0.1} y={40}>
-            <div
-              className="relative overflow-hidden"
-              style={{ aspectRatio: project.aspectRatio, maxHeight: "60vh" }}
-            >
+            {project.videoSrc && project.poster ? (
+              <div className="flex flex-col items-center">
+                <VideoPlayer
+                  src={project.videoSrc}
+                  poster={project.poster}
+                  aspect={project.videoAspect ?? project.aspectRatio}
+                  title={fa.title}
+                  duration={project.duration ?? ""}
+                />
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="font-inter text-sm text-[#5C5853] text-center mt-8"
+                >
+                  {fa.videoCaption}
+                </motion.p>
+              </div>
+            ) : project.videoEmbed ? (
+              <div className="relative w-full" style={{ paddingBottom: "177.78%" }}>
+                <iframe
+                  src={`https://player.vimeo.com/video/${project.videoEmbed}?autoplay=0&loop=1&background=0`}
+                  className="absolute inset-0 w-full h-full"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title={fa.title}
+                />
+              </div>
+            ) : (
               <div
-                className="absolute inset-0"
-                style={{ background: project.heroGradient }}
-              />
-              {/* Ambient glow */}
-              <div
-                className="absolute inset-0 opacity-30"
-                style={{
-                  background: `radial-gradient(ellipse 60% 40% at 50% 30%, ${project.accentColor}50, transparent 70%)`,
-                }}
-              />
-              <GrainOverlay opacity={0.04} />
-            </div>
+                className="relative overflow-hidden"
+                style={{ aspectRatio: project.aspectRatio, maxHeight: "60vh" }}
+              >
+                <div
+                  className="absolute inset-0"
+                  style={{ background: project.heroGradient }}
+                />
+                <div
+                  className="absolute inset-0 opacity-30"
+                  style={{
+                    background: `radial-gradient(ellipse 60% 40% at 50% 30%, ${project.accentColor}50, transparent 70%)`,
+                  }}
+                />
+                <GrainOverlay opacity={0.04} />
+                <p className="font-newsreader italic text-2xl text-[#A39E96] absolute inset-0 flex items-center justify-center text-center px-8 z-10">
+                  {fa.videoPlaceholder}
+                </p>
+              </div>
+            )}
           </TextReveal>
 
-        </div>
-      </section>
-
-      {/* Video section */}
-      <section className="py-24 md:py-40 px-6 md:px-12 bg-[#0F0E0C]">
-        <div className="max-w-5xl mx-auto">
-          {project.videoEmbed ? (
-            <div className="relative w-full" style={{ paddingBottom: "177.78%" }}>
-              <iframe
-                src={`https://player.vimeo.com/video/${project.videoEmbed}?autoplay=0&loop=1&background=0`}
-                className="absolute inset-0 w-full h-full"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                title={fa.title}
-              />
-            </div>
-          ) : (
-            <div
-              className="relative flex items-center justify-center bg-[#1A1816]"
-              style={{ aspectRatio: "9/16", maxHeight: "80vh" }}
-            >
-              <div
-                className="absolute inset-0 opacity-20"
-                style={{ background: project.heroGradient }}
-              />
-              <p className="font-newsreader italic text-2xl text-[#A39E96] relative z-10 text-center px-8">
-                {fa.videoPlaceholder}
-              </p>
-            </div>
-          )}
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="font-inter text-sm text-[#5C5853] text-center mt-8"
-          >
-            {fa.videoCaption}
-          </motion.p>
         </div>
       </section>
 
