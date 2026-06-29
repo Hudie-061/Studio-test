@@ -1,9 +1,12 @@
 {
   "_draft": "Traduction automatique — révision par locuteur natif requise avant publication finale.",
   "nav": {
-    "work":    "Projets",
-    "process": "Approche",
-    "contact": "Contact"
+    "work":      "Projets",
+    "process":   "Approche",
+    "services":  "Services",
+    "contact":   "Contact",
+    "menuOpen":  "Ouvrir le menu",
+    "menuClose": "Fermer le menu"
   },
   "hero": {
     "logo":      "STUDIO",

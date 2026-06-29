@@ -1,8 +1,11 @@
 {
   "nav": {
-    "work":    "Work",
-    "process": "Approach",
-    "contact": "Contact"
+    "work":      "Work",
+    "process":   "Approach",
+    "services":  "Services",
+    "contact":   "Contact",
+    "menuOpen":  "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
     "logo":      "STUDIO",

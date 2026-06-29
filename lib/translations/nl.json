@@ -1,9 +1,12 @@
 {
   "_draft": "Automatische vertaling — beoordeling door moedertaalspreker vereist vóór definitieve publicatie.",
   "nav": {
-    "work":    "Werk",
-    "process": "Aanpak",
-    "contact": "Contact"
+    "work":      "Werk",
+    "process":   "Aanpak",
+    "services":  "Diensten",
+    "contact":   "Contact",
+    "menuOpen":  "Menu openen",
+    "menuClose": "Menu sluiten"
   },
   "hero": {
     "logo":      "STUDIO",
