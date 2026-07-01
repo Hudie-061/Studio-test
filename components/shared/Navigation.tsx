@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslation } from "@/lib/hooks/useTranslation";
 import { LogoMark } from "@/components/logo/LogoMark";
@@ -9,7 +10,7 @@ import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, lang } = useTranslation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -42,16 +43,16 @@ export default function Navigation() {
   }, []);
 
   const navItems = [
-    { label: t.nav.work,    href: "#work"    },
-    { label: t.nav.process, href: "#process" },
-    { label: t.nav.contact, href: "#contact" },
+    { label: t.nav.work,    href: `/${lang}#work`    },
+    { label: t.nav.process, href: `/${lang}#process` },
+    { label: t.nav.contact, href: `/${lang}#contact` },
   ];
 
   const drawerItems = [
-    { label: t.nav.work,     href: "#work"         },
-    { label: t.nav.process,  href: "#process"      },
-    { label: t.nav.services, href: "#services"     },
-    { label: t.nav.contact,  href: "#contact-form" },
+    { label: t.nav.work,     href: `/${lang}#work`         },
+    { label: t.nav.process,  href: `/${lang}#process`      },
+    { label: t.nav.services, href: `/${lang}#services`     },
+    { label: t.nav.contact,  href: `/${lang}#contact-form` },
   ];
 
   function closeMenu() {
@@ -68,22 +69,22 @@ export default function Navigation() {
           scrolled ? "backdrop-blur-md bg-[#0F0E0C]/60" : ""
         }`}
       >
-        <a href="#" aria-label="VANTIR Studio">
+        <Link href={`/${lang}`} aria-label="VANTIR Studio home">
           <LogoMark size={28} showSubtitle className="hidden md:block" />
           <LogoMark size={24} showSubtitle={false} className="md:hidden" />
-        </a>
+        </Link>
 
         <div className="flex items-center gap-6 md:gap-8">
           <div className="hidden md:flex items-center gap-6 md:gap-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.href}
                 href={item.href}
                 className="font-inter text-sm text-[#A39E96] hover:text-[#F5F1EA] transition-colors duration-300 relative group"
               >
                 {item.label}
                 <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#F5F1EA] transition-all duration-300 group-hover:w-full" />
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -130,9 +131,9 @@ export default function Navigation() {
           >
             {/* Top row — matches main nav padding */}
             <div className="flex justify-between items-center px-6 py-7">
-              <a href="#" aria-label="VANTIR Studio" onClick={closeMenu}>
+              <Link href={`/${lang}`} aria-label="VANTIR Studio home" onClick={closeMenu}>
                 <LogoMark size={24} showSubtitle={false} />
-              </a>
+              </Link>
 
               <button
                 type="button"
@@ -152,13 +153,13 @@ export default function Navigation() {
               <ul className="flex flex-col space-y-8">
                 {drawerItems.map((item) => (
                   <li key={item.href}>
-                    <a
+                    <Link
                       href={item.href}
                       onClick={closeMenu}
                       className="font-newsreader text-4xl text-[#F5F1EA] hover:text-[#C8895A] transition-colors duration-300"
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

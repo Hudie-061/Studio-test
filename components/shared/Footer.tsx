@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "@/lib/hooks/useTranslation";
 import type { Locale } from "@/lib/context/TranslationContext";
@@ -31,7 +32,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start mb-10">
           {/* Left — studio mark */}
           <div>
-            <LogoMark size={20} showSubtitle color="#F5F1EA" className="mb-2" />
+            <Link href={`/${lang}`} aria-label="VANTIR Studio home">
+              <LogoMark size={20} showSubtitle color="#F5F1EA" className="mb-2" />
+            </Link>
             <p className="font-inter text-xs tracking-widest uppercase text-[#6B7A6E] mb-3">
               {t.footer.location}
             </p>
