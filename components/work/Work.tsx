@@ -53,7 +53,7 @@ export default function Work() {
       </div>
 
       {/* Breath */}
-      <div className="h-16 md:h-24" aria-hidden="true" />
+      <div className="h-8 md:h-24" aria-hidden="true" />
 
       {/* Forest Awakening */}
       <ProjectHero project={FOREST_AWAKENING} imageLeft slug="forest-awakening" />
