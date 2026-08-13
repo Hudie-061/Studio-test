@@ -46,6 +46,15 @@
     *, *::before, *::after { cursor: none !important; }
   }
 
+  /* /privacy and /legal skip the custom cursor (see CustomCursor.tsx) —
+     restore the native pointer so it isn't invisible on those pages. */
+  body.legal-page,
+  body.legal-page *,
+  body.legal-page *::before,
+  body.legal-page *::after {
+    cursor: auto !important;
+  }
+
   ::-webkit-scrollbar        { width: 3px; }
   ::-webkit-scrollbar-track  { background: #0F0E0C; }
   ::-webkit-scrollbar-thumb  { background: #5C5853; border-radius: 2px; }

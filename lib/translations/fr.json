@@ -161,7 +161,8 @@
     "location": "Bruxelles · Belgique",
     "since":    "En activité depuis 2026",
     "copy":     "© 2026 Studio — Conçu à Bruxelles",
-    "links":    ["Projets", "Approche", "Services", "Contact"]
+    "links":    ["Projets", "Approche", "Services", "Contact"],
+    "legalLinks": { "privacy": "Confidentialité", "legal": "Mentions légales" }
   },
   "forestAwakening": {
     "title":     "Forest Awakening",

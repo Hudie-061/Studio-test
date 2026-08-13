@@ -161,7 +161,8 @@
     "location": "Brussel · België",
     "since":    "Actief sinds 2026",
     "copy":     "© 2026 Studio — Gemaakt in Brussel",
-    "links":    ["Werk", "Aanpak", "Services", "Contact"]
+    "links":    ["Werk", "Aanpak", "Services", "Contact"],
+    "legalLinks": { "privacy": "Privacy", "legal": "Wettelijke vermeldingen" }
   },
   "forestAwakening": {
     "title":     "Forest Awakening",

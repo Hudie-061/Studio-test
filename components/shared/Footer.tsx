@@ -82,6 +82,22 @@ export default function Footer() {
             </p>
           </div>
         </div>
+
+        <div className="flex items-center gap-4 pt-6 border-t border-[rgba(245,241,234,0.06)]">
+          <Link
+            href={`/${lang}/privacy`}
+            className="font-inter text-[11px] text-[#5C5853] hover:text-[#A39E96] transition-colors duration-300"
+          >
+            {t.footer.legalLinks.privacy}
+          </Link>
+          <span className="text-[#3A3733] text-[11px]">/</span>
+          <Link
+            href={`/${lang}/legal`}
+            className="font-inter text-[11px] text-[#5C5853] hover:text-[#A39E96] transition-colors duration-300"
+          >
+            {t.footer.legalLinks.legal}
+          </Link>
+        </div>
       </div>
     </footer>
   );

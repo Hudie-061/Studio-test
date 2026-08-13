@@ -28,6 +28,10 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
+  // Exclusion-based: anything not listed here gets locale-routed. /privacy
+  // and /legal live under app/[locale]/ and deliberately are NOT excluded —
+  // unlike /print and /brand-assets, they must go through locale detection
+  // and redirect (e.g. /privacy -> /en/privacy).
   matcher: [
     "/((?!api|brand-assets|print|icon|apple-icon|opengraph-image|_next/static|_next/image|favicon.ico|.*\\..*).*)",
   ],
